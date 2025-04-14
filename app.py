@@ -78,7 +78,7 @@ current_deaths = (result['TotalPop'] * result['MortalityR'] / 100000).sum()
 
 # Display current data
 st.write(f"Current mean PM₂.₅ concentration: {current_mean_concentration:.2f} μg/m³")
-st.write(f"Current total deaths based on PM₂.₅ concentration: {current_deaths:,.0f}")
+#st.write(f"Current total deaths based on PM₂.₅ concentration: {current_deaths:,.0f}")
 
 # User input: new PM2.5 level
 pm25_input = st.slider("Increase PM₂.₅ concentration to (μg/m³)", 5, 20, 12)
