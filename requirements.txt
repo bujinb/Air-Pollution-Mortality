@@ -1,8 +1,2 @@
 streamlit
 pandas
-numpy
-geopandas
-shapely
-fiona
-pyproj
-openpyxl
